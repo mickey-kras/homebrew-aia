@@ -1,8 +1,8 @@
 class Aia < Formula
   desc "Agents In Accord — humane handover protocol for Claude Code sessions"
   homepage "https://aiaccord.dev"
-  url "https://github.com/mickey-kras/aia/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "23497ae690b9147257d963a05320f614eb8cd969aecbc0073feb94f7b01fae9a"
+  url "https://github.com/mickey-kras/aia/archive/refs/tags/v1.0.0.tar.gz"
+  sha256 "70c257a828f6d35136d9b34066c22d5a0f9d7a15c65064e8de8d5e837bff85a5"
   license "MIT"
   head "https://github.com/mickey-kras/aia.git", branch: "main"
 
@@ -41,7 +41,7 @@ class Aia < Formula
   end
 
   test do
-    assert_match "aia 0.1.0", shell_output("#{bin}/aia version")
+    assert_match "aia 1.0.0", shell_output("#{bin}/aia version")
     assert_match "USAGE", shell_output("#{bin}/aia help")
   end
 end
