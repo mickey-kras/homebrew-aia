@@ -2,7 +2,7 @@ class Aia < Formula
   desc "Agents In Accord — humane handover protocol for Claude Code sessions"
   homepage "https://aiaccord.dev"
   url "https://github.com/mickey-kras/aia/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "70c257a828f6d35136d9b34066c22d5a0f9d7a15c65064e8de8d5e837bff85a5"
+  sha256 "f5a72183fdcde185442c2f6ab99b5bb6d3e3bea5f860ca8ac556db00f6dae0c1"
   license "MIT"
   head "https://github.com/mickey-kras/aia.git", branch: "main"
 
